@@ -75,7 +75,7 @@ section {
   background-color: #5ce1e6;
   color: #ffffff;
   text-align: center;
-  padding: 80px 0;
+  padding: 25px 0;
 }
 
 .hero h1 {
@@ -87,6 +87,24 @@ section {
   font-size: 18px;
   margin-bottom: 40px;
 }
+.hero a {
+  color: #9af672;
+}
+
+
+
+
+.hero h2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.hero img {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
 
 
 
@@ -97,7 +115,7 @@ section {
   background-color: #5ce1e6;
   color: #ffffff;
   text-align: center;
-  padding: 0px 0;
+  padding: 10px 0;
 }
 
 .posttitle h1 {
@@ -109,7 +127,9 @@ section {
   font-size: 18px;
   margin-bottom: 40px;
 }
-
+.posttitle a {
+  color: #9af672;
+}
 
 
 
@@ -127,15 +147,18 @@ section {
 }
 
 .btn:hover {
-  background-color: #9af672;
+  background-color: #f7f7f7;
 }
 
-.about {
+
+/* this is also "postcontent" until i figure it out */
+
+.post {
   background-color: #ffffff;
   padding: 40px 0;
 }
 
-.about h2 {
+.post h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
@@ -151,33 +174,87 @@ section {
 
 
 
-.services {
-  background-color: #ffffff;
-  padding: 40px 0;
+
+.bottomnav {
+  background-color: #333;
+  color: #333;
+  padding: 30px 0;
 }
 
-.services h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.services ul {
+.bottomnav-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bottomnav-section {
+  width: 33.33%;
+  padding: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.services ul li {
+ul li {
   margin-bottom: 10px;
 }
 
-.contact {
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bottomnav-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bottomnav {
   background-color: #9af672;
   padding: 40px 0;
 }
 
-.contact h2 {
+.bottomnav h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer styles */
 footer {
